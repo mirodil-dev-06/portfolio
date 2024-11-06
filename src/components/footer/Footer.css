@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #1c1b29;
+}
+.footer .footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer__content .footer__content-text{
+    color: #ffffff;
+}
+.footer .footer__content .footer__content-text a{
+    color: #0cb653;
+}
+@media screen and (max-width: 575px){
+    .footer .footer__content .footer__content-text{
+        font-size: 13px;
+        width: 90%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,160 @@
+.about {
+    width: 100%;
+    padding: 50px 0;
+  }
+  
+  .about .about__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .about .about__content .about__content-title {
+    color: #ffffff;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .about .about__content .about__content-title::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'About';
+    width: 100%;
+    height: 100%;
+    color: rgba(177, 174, 174, 0.171);
+    font-size: 80px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about .about__content .about__content-title span {
+    color: #0cb653;
+  }
+  
+  .about .about__content .about__content-subtitle {
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+  
+  .about .about__content .about__content-box {
+    width: 80%;
+    background-color: #1c1b29;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-left h5 {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-left h5 span {
+    color: #0cb653;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-right h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-right ul {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 50px;
+    list-style: none;
+    margin-top: 50px;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-right ul li {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .about .about__content .about__content-box .about__content-box-right ul li:hover {
+    color: #0cb653;
+    transition: .2s linear;
+    transform: scale(1.5);
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .about .about__content .about__content-title {
+      font-size: 45px;
+    }
+  
+    .about .about__content .about__content-title::before {
+      display: none;
+    }
+  
+    .about .about__content .about__content-subtitle {
+      font-size: 14px;
+      width: 70%;
+    }
+  
+    .about .about__content .about__content-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 80px;
+    }
+  
+    .about .about__content .about__content-box .about__content-box-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .about .about__content .about__content-title {
+      font-size: 35px;
+    }
+  
+    .about .about__content .about__content-subtitle {
+      font-size: 14px;
+      width: 90%;
+    }
+  
+    .about .about__content .about__content-box .about__content-box-left h5 {
+      color: #ffffff;
+      font-size: 13px;
+    }
+  
+    .about .about__content .about__content-box .about__content-box-right ul {
+      display: grid;
+      grid-template-columns: repeat(3, 4fr);
+    }
+  }
+  
