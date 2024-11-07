@@ -15,7 +15,7 @@ const TimeLine = () => {
                         <Education></Education>
                     </div>
                     <div className="timeline__column">
-                        <h2 class="timeline__column-text">Experince</h2>
+                        <h2 className="timeline__column-text">Experince</h2>
                         <Experince></Experince>
 
                     </div>
