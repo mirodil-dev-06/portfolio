@@ -4,7 +4,7 @@ import '../about/About.css';
 import my_image from '../../images/my__image.jpg';
 import { FaHtml5, FaCss3Alt, FaSass, FaBootstrap, FaReact, FaGitSquare } from 'react-icons/fa';
 import { SiRedux, SiJavascript, SiTailwindcss, SiChakraui } from 'react-icons/si';
-import cvFile from '../../../public/reume.pdf';
+import cvFile from '../../resume.pdf';
 
 const skills = [
   { id: 1, icon: FaHtml5 },
